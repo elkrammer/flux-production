@@ -18,5 +18,5 @@ spec:
   # https://github.com/aws/eks-charts/blob/master/stable/aws-load-balancer-controller/values.yaml
   values:
     image:
-      tag: 1.1.3
+      tag: v2.1.1
     clusterName: eks-prod-us-west-2
