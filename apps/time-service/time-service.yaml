@@ -13,7 +13,7 @@ spec:
         name: time-service
   interval: 30s
   releaseName: time-service
-  targetNamespace: production
+  targetNamespace: default
   values:
     image:
       tag: 0.1.0
