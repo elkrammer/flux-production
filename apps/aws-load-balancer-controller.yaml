@@ -20,3 +20,5 @@ spec:
     image:
       tag: v2.1.1
     clusterName: eks-prod-us-west-2
+    serviceAccount:
+      create: false
