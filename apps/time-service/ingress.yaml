@@ -14,12 +14,12 @@ metadata:
 spec:
   rules:
     - http:
-      paths:
-        - path: /*
-          backend:
-            serviceName: time-service
-            servicePort: 80
-        # - path: /*
-        #   backend:
-        #     serviceName: ssl-redirect
-        #     servicePort: use-annotation
+        paths:
+          - path: /*
+            backend:
+              serviceName: time-service
+              servicePort: 80
+          # - path: /*
+          #   backend:
+          #     serviceName: ssl-redirect
+          #     servicePort: use-annotation
